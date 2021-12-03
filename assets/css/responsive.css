@@ -1,0 +1,35 @@
+@media(max-width:767px){
+    .navbar li{
+        display: none !important;
+        list-style: none;
+    }
+}
+@media(max-width:834px){
+    .section-header{
+        margin-bottom:30px;
+    }
+    .section-header h1 {
+        font-size: 74px !important;
+    }
+    .section-header h3 {
+        font-size: 17px !important;
+        font-weight: 400 !important;
+    }
+
+
+    .navbar li a {
+        text-decoration: none;
+        font-family: 'Fjalla One', sans-serif;
+        color: white;
+        display: inline-block;
+        font-weight: 500 !important;
+        font-size: 25px !important;
+    }
+    
+    .blog-box-content {
+        margin: 0 0 1.6em 0;
+        max-width: 660px;
+        font-size: 15px !important;
+    }
+
+}
